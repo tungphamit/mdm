@@ -1,6 +1,6 @@
 csrutil authenticated-root disable;
 diskutil mount /Volumes/TP-Pandora;
- Mount -uv /Volumes/Macintosh\ HD;	
+ Mount -uv /Volumes/TP-Pandora;	
  cd /Volumes/TP-Pandora/System/Library/LaunchAgents;
 mkdir tmp;
 mv com.apple.ManagedClientAgent.* tmp/;
